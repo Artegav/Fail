@@ -6,8 +6,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 .header {
-  padding: 0 100px;
-  margin: 35px 0;
+  padding: 10px 100px;
+  /* margin: 35px 0; */
+  position: fixed;
+  background-color: #fff;
+  width: 100vw;
 }
 .list {
   display: flex;
@@ -90,31 +93,127 @@ li {
   color: #ffffff;
   align-items: center;
   margin: 0 auto;
-  /* margin-top: 15px; */
 }
 .main {
   display: flex;
-  height: 75vh;
+  height: 850px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   /* background-color: rgba(0, 0, 0, 0.05); */
 }
-
+.ofer {
+  height: 1080px;
+  background: #000000;
+  padding-top: 26vh;
+}
+.title-midlle {
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+  font-weight: 600;
+  font-size: 42px;
+  width: 50%;
+  color: #ffffff;
+  text-align: center;
+}
 .middle-list {
   display: block;
   text-align: center;
   list-style-type: circle;
   font-weight: 500;
   font-size: 24px;
+  margin: 15px auto;
+  color: #ffffff;
 }
 .middle-text {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
   padding: 25px 0;
+  color: #ffffff;
 }
-.btn-midlle{
+.btn-midlle {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 20px 43px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;
+  align-items: center;
+  margin: 20px auto;
+}
+.command {
+  display: block;
+  margin: 0 auto;
+  padding: 150px;
+  font-weight: 600;
+  font-size: 42px;
+  width: 50%;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 172px;
+}
+.about {
+  height: 1080px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.author {
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+  height: 500px;
+  width: 500px;
+  box-shadow: 0 0 10px #000000;
+}
+.person-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 49px;
+}
+.document {
+  height: 1080px;
+  background: #000000;
+  color: #fff;
+}
+.doc {
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  padding-top: 183px;
+  padding-bottom: 330px;
+}
+.dow{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contact {
+  height: 700px;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.input {
+  display: block;
+  padding: 10px 25px;
+  margin: 15px 0;
+}
+.btn-contact {
   display: block;
   font-weight: 700;
   font-size: 14px;

@@ -1,51 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/style.css" />
 
     <title>tim</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header class="header">
-      <nav class="nav">
-        <ul class="list">
-          <li><a href="#" class="link">Главная</a></li>
-          <li><a href="#" class="link">Проект</a></li>
-          <li><a href="#" class="link">Технологии</a></li>
-          <li><a href="#" class="link logo" id="logo">F</a></li>
-          <li><a href="#" class="link">Команда</a></li>
-          <li><a href="#" class="link">Документы</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
-        </ul>
-      </nav>
+        <nav class="nav">
+            <ul class="list">
+                <li><a href="#" class="link">Главная</a></li>
+                <li><a href="#" class="link">Проект</a></li>
+                <li><a href="#" class="link">Технологии</a></li>
+                <li><a href="#" class="link logo" id="logo">F</a></li>
+                <li><a href="#" class="link">Команда</a></li>
+                <li><a href="#" class="link">Документы</a></li>
+                <li><a href="#" class="link">Контакты</a></li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
-      <p class="title" id="title"></p>
-      <p class="descr">
-        Это новая социальная сеть в которой ты можешь, рассказать о своих
-        ошибках
-      </p>
-      <button class="btn">Подробнее</button>
+        <p class="title" id="title"></p>
+        <p class="descr">
+            Это новая социальная сеть в которой ты можешь, рассказать о своих
+            ошибках
+        </p>
+        <button class="btn">Подробнее</button>
     </main>
-    <section class="features">
-      <p class="title">Плюсы Fail</p>
-      <ul class="middle-list">
-        <li>• Доброе комьюнити</li>
-        <li>• Множество историй, схожих с твоими</li>
-        <li>• Умная лента</li>
-        <li>• Частые конкурсы</li>
-        <li>• Группы по интересам</li>
-      </ul>
-      <p class="middle-text">
-        Впрочем, все что тебе интересно - тут есть, можешь не сомневаться <3 </p>
-        <button class="btn-midlle">Начать пользоваться</button>
-      </p>
-    </section>
+    <div class="ofer">
+        <section class="features">
 
-    <script src="js/main.js"></script>
-  </body>
+            <p class="title-midlle">Плюсы Fail</p>
+            <ul class="middle-list">
+                <li>• Доброе комьюнити</li>
+                <li>• Множество историй, схожих с твоими</li>
+                <li>• Умная лента</li>
+                <li>• Частые конкурсы</li>
+                <li>• Группы по интересам</li>
+            </ul>
+            <p class="middle-text">
+                Впрочем, все что тебе интересно - тут есть, можешь не сомневаться <3 </p>
+                    <button class="btn-midlle">Начать пользоваться</button>
+            </p>
+        </section>
+    </div>
+    <p class="command">Наша команда</p>
+    <div class="about">
+        <div class="person">
+
+            <img src="img/ilia.jpg" alt="" class="author">
+            <p class="person-text">дизайн и фронтенд разработака</p>
+        </div>
+
+        <div class="person">
+
+            <img src="img/artemii.jpg" alt="" class="author">
+            <p class="person-text">тайм менджмент и серверная часть</p>
+        </div>
+    </div>
+    <div class="document">
+        <p class="doc">Документация</p>
+        <ul class="dow">
+            <li>Názov dokumentu</li>
+            <li>Dátum</li>
+            <li>Popis</li>
+            <li>Na stiahnutie</li>
+        </ul>
+    </div>
+    <div class="contact">
+
+        <form action="">
+            <input class="input" type="text" placeholder="введи свое имя">
+            <input class="input" type="email" placeholder="эмейл">
+            <input class="input" type="text" placeholder="коментарий">
+            <input class="btn-contact" type="submit" >
+
+        </form>
+    </div>
+    <script src="/js/main.js"></script>
+</body>
+
 </html>
